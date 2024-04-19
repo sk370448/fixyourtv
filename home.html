@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video Television</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation setion -->
+
+    <nav id="toggle-main" class="bg-stone-800 text-stone-300 text-lg flex justify-between items-center h-10 px-4 fixed w-full z-10 sm:hidden">
+        <div><i class="hamburger fa-solid fa-bars cursor-pointer"></i></div>
+    </nav>
+
+    <nav>
+        <ul class="hidden sm:bg-stone-800 sm:text-stone-300 sm:text-sm sm:flex sm:h-10 sm:px-2 sm:fixed sm:w-full sm:z-10 sm:items-center sm:justify-end sm:gap-2 md:text-lg md:h-12 lg:gap-4">
+            <a href="home.html"><li>Home</li></a>
+            <a class="text-stone-50" href="ContactUs.html"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <nav id="toggle" class="script hidden">
+        <ul class="bg-stone-800 text-stone-300 flex flex-col w-72 h-dvh fixed z-30 p-4 gap-8 transition-all ease-in duration-500">
+            <i class="cross cursor-pointer fa-solid fa-xmark font-bold text-2xl"></i>
+            <a class="border-b-2 border-stone-200 pb-2" href="home.html"><li>Home</li></a>
+            <a class="border-b-2 border-stone-200 pb-2" href="ContactUs.html"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <div class="overlay fixed bg-stone-800 hidden opacity-60 h-full w-full z-10"></div>
+    <!-- hero section -->
+
+    <div class="bg-stone-900 text-yellow-400 flex flex-col items-center h-dvh gap-6 sm:h-auto md:justify-start">
+        <img class="mt-40 lg:mt-24" src="assets/macbook-pro-black-screen-removebg-preview.png" alt="Enter Code">
+        <div class="text-center absolute top-56 text-lg">
+            <span>Enter Your Code</span><br>
+            <span class="text-6xl">MMYNTZ</span>
+        </div>
+        
+        <h1 class="text-center font-semibold text-lg">Enter the Code shown on your tv<br>
+        or com mytv device</h1>
+        <h2 class="mt-1">Registration Code:</h2>
+        <input class="rounded-sm px-4 py-2 w-80 text-black text-lg" type="text" placeholder="Enter Code Ex: ED6DSF" required>
+        <button class="bg-stone-700 px-4 py-2 text-stone-300 rounded-md w-60 font-medium text-lg mb-10"><a href="ContactUs.html">Register Device</a></button>
+        <a class="text-xl text-yellow-400 hover:text-2xl hover:text-yellow-200 mt-auto mb-2 sm:hidden" href="#"><i class="fa-solid fa-angle-down"></i></a>
+    </div>
+
+    <div class="flex flex-col items-center gap-4 bg-stone-200">
+        <h2 class="font-semibold text-lg mt-5">Where's My Registration Code?</h2>
+        <h3 class="font-semibold text-lg">Step 1</h3>
+        <p>Open the Prime Video App on Your TV or Device.</p>
+        <h3 class="font-semibold text-lg">Step 2</h3>
+        <p>Select "Register on the Prime Website."</p>
+        <h3 class="font-semibold text-lg">Step 3</h3>
+        <p class="pb-8">Your Registration Code appears on the left of the screen </p>
+    </div>
+
+    <!-- footer section -->
+
+    <div class="bg-slate-400 h-10 text-center">
+        <p class="pt-1">Copyright © 2023 Auvisions. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

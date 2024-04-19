@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation setion -->
+
+    <nav id="toggle-main" class="bg-stone-800 text-stone-300 text-lg flex justify-between items-center h-10 px-4 fixed w-full z-10 sm:hidden">
+        <div><i class="hamburger fa-solid fa-bars cursor-pointer"></i></div>
+    </nav>
+
+    <nav>
+        <ul class="hidden sm:bg-stone-800 sm:text-stone-300 sm:text-sm sm:flex sm:h-10 sm:px-2 sm:fixed sm:w-full sm:z-10 sm:items-center sm:justify-end sm:gap-2 md:text-lg md:h-12 lg:gap-4">
+            <a href="home.html"><li>Home</li></a>
+            <a class="text-stone-50" href="ContactUs.html"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <nav id="toggle" class="script hidden">
+        <ul class="bg-stone-800 text-stone-300 flex flex-col w-72 h-dvh fixed z-30 p-4 gap-8 transition-all ease-in duration-500">
+            <i class="cross cursor-pointer fa-solid fa-xmark font-bold text-2xl"></i>
+            <a class="border-b-2 border-stone-200 pb-2" href="home.html"><li>Home</li></a>
+            <a class="border-b-2 border-stone-200 pb-2" href="ContactUs.html"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <div class="overlay fixed bg-stone-800 hidden opacity-60 h-full w-full z-10"></div>
+
+    <!-- hero-section -->
+
+    <div class="flex flex-col h-dvh bg-stone-900 items-center justify-center px-6 text-yellow-400 text-2xl gap-5 sm:px-44 md:px-52 lg:px-96">
+        <h1>Congratulations!</h1>
+        <h2 class="text-center">Your code has been submitted successfully</h2>
+        <button class="w-full rounded-lg py-1 font-semibold text-lg bg-stone-700 text-stone-200">Phone Verification Required</button>
+        <h2 class="text-green-600">Call Now To Activate</h2>
+        <button class="w-full rounded-lg py-1 font-semibold text-lg bg-stone-700 text-stone-200">+1(875) 958-1785</button>
+        <button class="w-full rounded-lg py-1 font-semibold text-lg bg-stone-700 text-stone-200">Click To Call Now</button>
+    </div>
+
+    <!-- footer section -->
+
+    <div class="bg-slate-400 h-10 text-center">
+        <p class="pt-1">Copyright © 2023 Auvisions. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
